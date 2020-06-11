@@ -1,8 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+//Packages
+import React 				from 'react';
+import ReactDOM 			from 'react-dom';
+import * as serviceWorker	from './serviceWorker';
+
+//Styles
 import 'antd/dist/antd.css';
-import * as serviceWorker   from './serviceWorker';
+
+//Systems
+import App from './js/systems/App';
 
 ReactDOM.render(
 	<React.StrictMode>
